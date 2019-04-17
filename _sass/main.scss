@@ -1,3 +1,143 @@
-.current {
-  color: green;
+/*******DEFAULTS*********/
+
+@font-face {
+ font-family: "Apple Garamond";
+ src: url("../fonts/AppleGaramond-Light.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  height: auto;
+  min-height: 100%;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  background-color: #DDDDEF;
+  // padding-bottom: 60px; /* footer height*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Apple Garamond', serif;
+  font-weight: lighter;
+}
+
+h1 {
+  text-align: center;
+  font-size:56px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************** HEADER **************/
+
+.header {
+  border-bottom: 1px solid #555555;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+
+  min-height:48px;
+  display: block;
+  overflow: hidden;
+}
+
+#headerRight {
+  float: right;
+  overflow: hidden;
+  margin-right: 32px;
+}
+
+.headerItem {
+  //display: inline-block;
+  font-size: 24px;
+  padding: 12px;
+  font-family: 'Apple Garamond', serif;
+  float: left;
+}
+
+a.headerItem:link {
+  color: black;
+  text-decoration: none;
+}
+
+a.headerItem:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a.headerItem:hover {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a.headerItem:active {
+  color: black;
+  text-decoration: none;
+}
+
+#current {
+  //font-style: italic;
+  font-weight: bolder;
+}
+
+#namelink {
+  // border-right: 1px solid #555555;
+  float: left;
+  font-size: 32px;
+  padding: 7px;
+  font-weight: normal;
+  margin-left: 32px;
+}
+
+// .navBuffer {
+//   height: 10px;
+//   width: 32px;
+//   float: left;
+// }
+
+/********* BODY ***********/
+
+#root {
+  display: block;
+  position: relative;
+  width: 80%;
+  max-width: 960px;
+  //height: 100vh;
+  min-height: 100vh;
+  margin: auto;
+  background-color: #fcfcfc;
+  box-shadow: 0 0 10px grey;
+}
+
+.mainContainer {
+  height: auto;
+  max-width: 100%;
+  margin: 0 60px;
+  padding-bottom: 80px;
+}
+
+/********** FOOTER *****/
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  clear: both;
+  border-top: 1px solid #555555;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px; /* footer height*/
+  height: 30px; /* footer height*/
+
 }
