@@ -1,0 +1,17 @@
+@import "utilities/variables";
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  clear: both;
+  border-top: 1px solid #555555;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px; /* footer height*/
+  height: 30px; /* footer height*/
+  background-color: #DDDDDD;
+
+}

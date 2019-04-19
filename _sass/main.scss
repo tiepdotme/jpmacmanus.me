@@ -1,4 +1,7 @@
 
+@import "utilities/variables";
+@import "utilities/standards";
+
 /*******DEFAULTS*********/
 
 @font-face {
@@ -39,103 +42,10 @@ a {
   text-decoration: none;
 }
 
+// any element with this class will be transparent initially and fade in.
 .fadein {
   opacity: 0;
 }
-
-/*************** HEADER **************/
-
-.header {
-  border-bottom: 1px solid #555555;
-  margin: auto;
-  padding: 0;
-  width: 100%;
-
-  min-height:48px;
-  display: block;
-  overflow: hidden;
-}
-
-.linkContainer {
-  width: 80%;
-  max-width: 1260px;
-  margin: auto;
-}
-
-.headerRight {
-  float: right;
-  overflow: hidden;
-}
-
-.headerItem {
-  //display: inline-block;
-  font-size: 24px;
-  padding: 12px;
-  font-family: 'Apple Garamond', serif;
-  float: left;
-}
-
-a.headerItem:link {
-  color: black;
-  text-decoration: none;
-}
-
-a.headerItem:visited {
-  color: black;
-  text-decoration: none;
-}
-
-a.headerItem:hover {
-  color: black;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-a.headerItem:active {
-  color: black;
-  text-decoration: none;
-}
-
-#current {
-  //font-style: italic;
-  font-weight: bolder;
-}
-
-#namelink {
-  // border-right: 1px solid #555555;
-  float: left;
-  font-size: 32px;
-  padding: 7px;
-  font-weight: normal;
-}
-
-/*********** BANNER ********/
-
-.banner {
-  position: relative;
-  min-width: 100%;
-  overflow: hidden;
-  height: 38vh;
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-attachment: fixed;
-
-}
-
-.bannergradient {
-  width: 100%;
-  height: 60%;
-  position: absolute;
-  bottom: 0px;
-  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, #fcfcfc 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,#fcfcfc 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#fcfcfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
-}
-
-
-/********* BODY ***********/
 
 .root {
   display: block;
@@ -144,32 +54,15 @@ a.headerItem:active {
   //height: 100vh;
   min-height: 100vh;
   margin: auto;
-  background-color: #fcfcfc;
+  background-color: $main-colour;
   box-shadow: 0 0 10px grey;
 }
 
 .mainContainer {
+  @extend %default-widths;
   height: auto;
-  width: 80%;
-  max-width: 960px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
 
 /********** FOOTER *****/
-
-.footer {
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  clear: both;
-  border-top: 1px solid #555555;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  padding-top: 20px; /* footer height*/
-  height: 30px; /* footer height*/
-  background-color: #DDDDDD;
-
-}

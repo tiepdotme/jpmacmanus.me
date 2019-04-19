@@ -1,0 +1,65 @@
+@import "utilities/variables";
+
+.header {
+  border-bottom: 1px solid #555555;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+
+  min-height:48px;
+  display: block;
+  overflow: hidden;
+}
+
+.linkContainer {
+  width: 80%;
+  max-width: 1260px;
+  margin: auto;
+}
+
+.headerRight {
+  float: right;
+  overflow: hidden;
+}
+
+.headerItem {
+  //display: inline-block;
+  font-size: 24px;
+  padding: 12px;
+  font-family: 'Apple Garamond', serif;
+  float: left;
+}
+
+a.headerItem:link {
+  color: black;
+  text-decoration: none;
+}
+
+a.headerItem:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a.headerItem:hover {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a.headerItem:active {
+  color: black;
+  text-decoration: none;
+}
+
+#current {
+  //font-style: italic;
+  font-weight: bolder;
+}
+
+#namelink {
+  // border-right: 1px solid #555555;
+  float: left;
+  font-size: 32px;
+  padding: 7px;
+  font-weight: normal;
+}
