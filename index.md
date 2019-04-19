@@ -21,3 +21,5 @@ Alongside curricular studies, I am currently working on a small number of projec
 - **Project Euler** - In my free time I've managed to solve around 30 problems on <a href="https://projecteuler.net/">Project Euler</a>, a collection of problems both mathematical and computational in nature.
 
 - **This website** - This site has been built from the ground up by hand, using <a href="https://jekyllrb.com/">Jekyll</a>, a static site generator, and is constantly evolving as my tastes change.
+
+In the coming Summer (2019), I will be working with a small number of other students on a research project concerning *quantum speed-ups of classical algorithms*. 

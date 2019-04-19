@@ -1,9 +1,11 @@
 ---
 layout: default-plus
 title: Contact
-banner: assets/images/dogonbeach.jpg
+banner: assets/images/royalyork.jpg
 ---
 
-In order to contact me, try emailing me at
+# Get in touch.
 
-<a href="mailto:jm17644@bris.ac.uk">jm17644@bris.ac.uk</a>
+Try emailing me, at
+
+- <a href="mailto:jm17644@bris.ac.uk">jm17644@bris.ac.uk</a>
