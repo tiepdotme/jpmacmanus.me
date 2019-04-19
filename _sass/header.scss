@@ -1,19 +1,21 @@
 @import "utilities/variables";
 
 .header {
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid $header-link-colour;
   margin: auto;
   padding: 0;
   width: 100%;
-
-  min-height:48px;
+  vertical-align: middle;
+  min-height:52px;
   display: block;
   overflow: hidden;
+  position: fixed;
+  background-color: $main-colour;
+  z-index: 999;
 }
 
 .linkContainer {
-  width: 80%;
-  max-width: 1260px;
+  width: 90%;
   margin: auto;
 }
 
@@ -31,27 +33,30 @@
 }
 
 a.headerItem:link {
-  color: black;
+  color: $header-link-colour;
   text-decoration: none;
+
 }
 
 a.headerItem:visited {
-  color: black;
+  color: $header-link-colour;
   text-decoration: none;
 }
 
 a.headerItem:hover {
-  color: black;
-  font-weight: bolder;
+  color: $active-header-link;
+  //font-weight: bolder;
   text-decoration: none;
+  background-color: $highlight-colour;
 }
 
 a.headerItem:active {
-  color: black;
+  color: $active-header-link;
   text-decoration: none;
 }
 
 #current {
+  color: $active-header-link;
   //font-style: italic;
   font-weight: bolder;
 }
@@ -59,7 +64,8 @@ a.headerItem:active {
 #namelink {
   // border-right: 1px solid #555555;
   float: left;
-  font-size: 32px;
+  font-size: 33px;
   padding: 7px;
   font-weight: normal;
+  color: $active-header-link;
 }

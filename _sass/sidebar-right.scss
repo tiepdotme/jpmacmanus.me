@@ -1,0 +1,29 @@
+@import "utilities/variables";
+
+#right-sidebar {
+  width: 268px;
+  padding: 16px;
+  float: right;
+}
+
+li.sidebar-preview {
+  font-size: 12px;
+  padding-left: 0;
+}
+
+h3.sidebar-post-title {
+  font-size: 18px;
+  margin: 0;
+  display:inline-block;
+}
+
+h4.sidebar-post-date {
+  font-size: 14;
+  margin: 0;
+  display: inline-block;
+}
+
+#sidebar-post-list {
+  list-style: none;
+  padding: 0;
+}

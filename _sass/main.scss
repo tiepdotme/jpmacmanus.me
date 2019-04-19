@@ -1,6 +1,5 @@
 
 @import "utilities/variables";
-@import "utilities/standards";
 
 /*******DEFAULTS*********/
 
@@ -18,12 +17,12 @@ body {
   position: relative;
   margin: 0;
   height: auto;
-  min-height: 100%;
+  min-height: 100vh;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  text-align: justify;
+
   background-color: #DDDDEF;
-  font-size: 16px;
+  // font-size: 16px;
   // padding-bottom: 60px; /* footer height*/
 }
 
@@ -40,6 +39,10 @@ h1.pagetitle {
 
 a {
   text-decoration: none;
+}
+
+p {
+  text-align: justify;
 }
 
 // any element with this class will be transparent initially and fade in.
@@ -59,10 +62,67 @@ a {
 }
 
 .mainContainer {
-  @extend %default-widths;
-  height: auto;
+  width: 1264px;
+  // minheight: auto;
   margin: 0 auto;
   padding-bottom: 80px;
+  overflow-y: auto;
 }
 
-/********** FOOTER *****/
+#bio-sidebar {
+  //display: inline-block;
+  float: left;
+  width: 231px;
+  height: 100%;
+  padding: 16px;
+
+}
+
+#content-cnt {
+  float: left;
+  max-width: 968px;
+  padding: 0 16px;
+  height: auto;
+  margin:auto;
+  border-left: 1px solid #d6d9dc;
+}
+
+#inner-content { // only used in default-plus layout
+  float: left;
+  width: 652px;
+  padding-right: 16px;
+}
+
+@media only screen and (max-width:1300px) {
+    #content-cnt {
+      width:564px;
+    }
+    .mainContainer {
+      width: 864px;
+    }
+
+    #right-sidebar {
+      display: none;
+    }
+    #inner-content {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #bio-sidebar {
+        display: none;
+    }
+    #content-cnt {
+      float: none;
+      width: 80%;
+      max-width:none;
+      border-left-width: 0;
+    }
+    .mainContainer {
+      width: 100%;
+    }
+    #inner-content {
+      width: 100%;
+    }
+}

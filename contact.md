@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-plus
 title: Contact
 banner: assets/images/dogonbeach.jpg
 ---
