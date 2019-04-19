@@ -1,3 +1,4 @@
+
 /*******DEFAULTS*********/
 
 @font-face {
@@ -10,6 +11,7 @@ html {
 }
 
 body {
+  overflow-y: scroll;
   position: relative;
   margin: 0;
   height: auto;
@@ -18,6 +20,7 @@ body {
   font-family: 'Lato', sans-serif;
   text-align: justify;
   background-color: #DDDDEF;
+  font-size: 16px;
   // padding-bottom: 60px; /* footer height*/
 }
 
@@ -26,13 +29,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: lighter;
 }
 
-h1 {
+h1.pagetitle {
   text-align: center;
-  font-size:56px;
+  font-size:96px;
+  margin-top: 5px;
 }
 
 a {
   text-decoration: none;
+}
+
+.fadein {
+  opacity: 0;
 }
 
 /*************** HEADER **************/
@@ -48,10 +56,15 @@ a {
   overflow: hidden;
 }
 
-#headerRight {
+.linkContainer {
+  width: 80%;
+  max-width: 1260px;
+  margin: auto;
+}
+
+.headerRight {
   float: right;
   overflow: hidden;
-  margin-right: 32px;
 }
 
 .headerItem {
@@ -94,22 +107,40 @@ a.headerItem:active {
   font-size: 32px;
   padding: 7px;
   font-weight: normal;
-  margin-left: 32px;
 }
 
-// .navBuffer {
-//   height: 10px;
-//   width: 32px;
-//   float: left;
-// }
+/*********** BANNER ********/
+
+.banner {
+  position: relative;
+  min-width: 100%;
+  overflow: hidden;
+  height: 38vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
+.bannergradient {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 0px;
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, #fcfcfc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,#fcfcfc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#fcfcfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
 
 /********* BODY ***********/
 
-#root {
+.root {
   display: block;
   position: relative;
-  width: 80%;
-  max-width: 960px;
+  width: 100%;
   //height: 100vh;
   min-height: 100vh;
   margin: auto;
@@ -119,8 +150,9 @@ a.headerItem:active {
 
 .mainContainer {
   height: auto;
-  max-width: 100%;
-  margin: 0 60px;
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
   padding-bottom: 80px;
 }
 
@@ -134,10 +166,10 @@ a.headerItem:active {
   clear: both;
   border-top: 1px solid #555555;
   width: 100%;
-  max-width: 960px;
   margin: auto;
   text-align: center;
   padding-top: 20px; /* footer height*/
   height: 30px; /* footer height*/
+  background-color: #DDDDDD;
 
 }

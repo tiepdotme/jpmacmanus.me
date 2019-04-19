@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Contact
+banner: assets/images/dogonbeach.jpg
 ---
-
-# Contact Me
 
 In order to contact me, try emailing me at
 
