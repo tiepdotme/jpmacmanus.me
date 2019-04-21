@@ -19,9 +19,9 @@ Since entering university, I've noticed that personal websites are apparently a 
 My personal decade of choice, in terms of design, would have to be the 80s. I don't mean the crazy, neon, over-the-top word-art you see passed around as "retro 80s vibes", I'm talking about the clean, confident, and understated tech advertising of the era. Here are some examples of what I'm talking about:
 
 <p float="left">
-  <img src="{{site.baseurl}}/assets/images/blog/webdesign/image1.jpg" width="33%" />
-  <img src="{{site.baseurl}}/assets/images/blog/webdesign/image2.jpg" width="33%" />
-  <img src="{{site.baseurl}}/assets/images/blog/webdesign/image3.jpg" width="33%" />
+  <img src="{{site.baseurl}}/assets/images/blog/webdesign/image1.jpg" width="32%" />
+  <img src="{{site.baseurl}}/assets/images/blog/webdesign/image2.jpg" width="32%" />
+  <img src="{{site.baseurl}}/assets/images/blog/webdesign/image3.jpg" width="32%" />
 </p>
 
 As a 'genre', if you can call it that, I think that it's aged remarkably well. A combination of the sleekness of the overall look, the professional black-on-white simplicity and the unique serif fonts which seem to have fallen out of usage. Couple this with 80s fashion and charm, which is finally making it's way back into the public eye as 'vintage', we have an incredible design rhetoric which holds up today almost arguably more than it did back when it was conceived. A key player in this style of graphic was Apple, who's typography permeates this website through the font *Apple Garamond*.
@@ -51,4 +51,4 @@ Once the back end was set up, it was then a matter of setting up the layout of t
 
 Aside from reaffirming my hatred for writing CSS, I think creating this site has definitely taught me a lot about not just web development and what tools are out there, but also about myself and how I want to be perceived. It would definitely have been much easier to settle on a template or another more accessible option, but I feel like I wanted something I could be proud of, something I could be in full control of, and most importantly something tangible that I can pull out at a moments notice and brag 'I made that'.
 
-The design of this website will be constantly evolving, alongside both my tastes, and my knowledge of CSS. All the code is freely available at https://github.com/jpmacmanus/jpmacmanus.github.io.
+The design of this website will be constantly evolving, alongside both my tastes, and my knowledge of CSS. All the code is freely available on my [GitHub](https://github.com/jpmacmanus/jpmacmanus.github.io).
