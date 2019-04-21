@@ -4,8 +4,6 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 
 ## TODO
 
-- Add comments via disqus.
-
 - Add a subscribe feature via Atom(?) or RSS.
 
 - Work on mobile friendliness a little bit
