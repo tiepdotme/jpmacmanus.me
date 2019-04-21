@@ -26,7 +26,7 @@ These cycle decompositions will form the basis of all our arguments, the relatio
 
 **Lemma 1.** *A permutation is a derangement if and only if its cycle decomposition does not contain a \\(1\\)-cycle.*
 
-*Proof.* Let \\(\sigma \in S_n\\), and suppose its decomposition contains a \\(1\\)-cycle, \\((x)\\). Since the decomposition is made up of \textbf{disjoint} cycles, we have no other cycle in \\(\sigma\\) affects \\(x\\), so \\(\sigma(x) = x\\).
+*Proof.* Let \\(\sigma \in S_n\\), and suppose its decomposition contains a \\(1\\)-cycle, \\((x)\\). Since the decomposition is made up of **disjoint** cycles, we have no other cycle in \\(\sigma\\) affects \\(x\\), so \\(\sigma(x) = x\\).
 
 Conversely, suppose its decomposition contains no \\(1\\)-cycles, then we have that every element \\(x \in N\\) appears in exactly one cycle, which is of length at least \\(2\\). It follows that \\(\sigma\\) contains no fixed points.  //
 
