@@ -12,7 +12,7 @@ To kick off this blog I figured it would be fitting to write about the creation 
 
 For as long as I can remember, I've always enjoyed the idea of having a website. I grew up alongside the internet, and the concept of owning your own plot of web-space was often romanticised by the media (see: iCarly). In my time I've hosted a few small, unsuccessful blogs and pages on whatever free hosts I could find - writing about whatever nonsense I had to say was always a good escape from the monotony of day-to-day life.
 
-Since entering university, I've noticed that personal websites are apparently thing in the professional world - who would've guessed it. They're a way to market oneself to a more global community, and can say more than any email spam-bot throwing your CV about ever could. They're especially a 'thing' among academics, and also many high-flying computer science students. As somebody aspiring to fall into at least one of those categories, it seemed like a decent idea to hop onto the online property ladder.
+Since entering university, I've noticed that personal websites are apparently a thing in the professional world - who would've guessed it. They're a way to market oneself to a more global community, and can say more than any email spam-bot throwing your CV about ever could. They're especially a 'thing' among academics, and also many high-flying computer science students. As somebody aspiring to fall into at least one of those categories, it seemed like a decent idea to hop onto the online property ladder.
 
 ## Inspiration
 
@@ -49,4 +49,6 @@ Once the back end was set up, it was then a matter of setting up the layout of t
 
 ## Closing Remarks
 
-Aside from reaffirming my hatred for writing CSS, I think creating this site has definitely taught me a lot about not just web development and what tools are out there, but also about myself and how I want to be perceived. It would definitely have been much easier to settle on a template or another more accessible option, but I feel like I wanted something I could be proud of, something I could be in full control of, and most importantly something tangible and I can pull out at a moments notice and brag 'I made that'.
+Aside from reaffirming my hatred for writing CSS, I think creating this site has definitely taught me a lot about not just web development and what tools are out there, but also about myself and how I want to be perceived. It would definitely have been much easier to settle on a template or another more accessible option, but I feel like I wanted something I could be proud of, something I could be in full control of, and most importantly something tangible that I can pull out at a moments notice and brag 'I made that'.
+
+The design of this website will be constantly evolving, alongside both my tastes, and my knowledge of CSS. All the code is freely available at https://github.com/jpmacmanus/jpmacmanus.github.io.
