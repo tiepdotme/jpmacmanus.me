@@ -30,7 +30,7 @@ These cycle decompositions will form the basis of all our arguments, the relatio
 
 Conversely, suppose its decomposition contains no \\(1\\)-cycles, then we have that every element \\(x \in N\\) appears in exactly one cycle, which is of length at least \\(2\\). It follows that \\(\sigma\\) contains no fixed points.  //
 
-# Counting via Partitions
+## Counting via Partitions
 
 In this section we will explore the link between permutations and partitions, and exploit this link with the aim of counting this derangements. Consider a permutation \\(\sigma\\) and its decomposition, it's easy to see that this decomposition determines a partition of \\(N\\) by mapping each cycle to a part containing all elements within the cycle. This works since every element of \\(N\\) appears in precisely one of its cycles. For example
 

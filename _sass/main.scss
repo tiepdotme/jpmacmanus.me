@@ -17,19 +17,32 @@ body {
   height: auto;
   min-height: 100vh;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   background-color: #DDDDEF;
-  // font-size: 16px;
+  font-size: 16px;
   // padding-bottom: 60px; /* footer height*/
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 36px;
   font-family: 'Apple Garamond', serif;
   font-weight: lighter;
 }
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 20px;
+}
 
 h1.pagetitle {
+
   text-align: center;
   font-size:96px;
   margin-top: 5px;
@@ -40,6 +53,7 @@ a {
 }
 
 p {
+  // font-size: 16px;
   text-align: justify;
 }
 
