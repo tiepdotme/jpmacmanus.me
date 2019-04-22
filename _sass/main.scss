@@ -18,8 +18,8 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-
-  background-color: #DDDDEF;
+  color: $reg-black;
+  background-color: $snow-white;
   font-size: 16px;
   // padding-bottom: 60px; /* footer height*/
 }

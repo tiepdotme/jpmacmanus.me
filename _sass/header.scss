@@ -1,7 +1,7 @@
 @import "utilities/variables";
 
 .header {
-  border-bottom: 1px solid $header-link-colour;
+  // border-bottom: 1px solid $reg-black;
   margin: auto;
   padding: 0;
   width: 100%;
@@ -10,7 +10,7 @@
   display: block;
   overflow: hidden;
   position: fixed;
-  background-color: $main-colour;
+  background-color: $jet-black;
   z-index: 999;
 }
 
@@ -32,34 +32,36 @@
   float: left;
 }
 
+#current {
+  // color: $snow-white;
+  //font-style: italic;
+  //font-weight: bolder;
+  text-decoration: underline;
+}
+
 a.headerItem:link {
-  color: $header-link-colour;
+  color: $snow-white;
   text-decoration: none;
 
 }
 
 a.headerItem:visited {
-  color: $header-link-colour;
+  color: $snow-white;
   text-decoration: none;
 }
 
 a.headerItem:hover {
-  color: $active-header-link;
+  color: $moonstone;
   //font-weight: bolder;
-  text-decoration: none;
-  background-color: $highlight-colour;
+  // background-color: $header-link-colour;
 }
 
 a.headerItem:active {
-  color: $active-header-link;
+  color: $moonstone;
   text-decoration: none;
 }
 
-#current {
-  color: $active-header-link;
-  //font-style: italic;
-  font-weight: bolder;
-}
+
 
 #namelink {
   // border-right: 1px solid #555555;
@@ -67,5 +69,5 @@ a.headerItem:active {
   font-size: 33px;
   padding: 7px;
   font-weight: normal;
-  color: $active-header-link;
+  // color: $snow-white;
 }

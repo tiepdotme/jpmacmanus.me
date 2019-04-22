@@ -1,5 +1,5 @@
 ---
-layout: default-plus
+layout: default
 title: Curriculum Vitae
 banner: assets/images/viewfrombridge.jpg
 ---

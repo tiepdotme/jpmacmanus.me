@@ -12,6 +12,23 @@
   text-align: center;
   padding-top: 20px; /* footer height*/
   height: 30px; /* footer height*/
-  background-color: #DDDDDD;
+  background-color: $jet-black;
+  color: $highlight-colour;
+}
 
+a.footer-link:link {
+  color: $highlight-colour;
+  text-decoration: underline;
+}
+
+a.footer-link:visited {
+  color: $highlight-colour;
+}
+
+a.footer-link:hover {
+  color: $moonstone;
+}
+
+a.footer-link:active {
+  color: $moonstone;
 }
