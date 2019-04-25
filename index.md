@@ -1,7 +1,6 @@
 ---
 layout: default-plus
 title: Home
-banner: assets/images/dogonbeach.jpg
 ---
 
 # About me
@@ -22,4 +21,4 @@ Alongside curricular studies, I am currently working on a small number of projec
 
 - **This website** - This site has been built from the ground up by hand, using <a href="https://jekyllrb.com/">Jekyll</a>, a static site generator, and is constantly evolving as my tastes change.
 
-In the coming Summer (2019), I will be working with a small number of other students on a research project concerning *quantum speed-ups of classical algorithms*. 
+In the coming Summer (2019), I will be working with a small number of other students on a research project concerning *quantum speed-ups of classical algorithms*.

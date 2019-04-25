@@ -1,7 +1,6 @@
 ---
 layout: default-plus
 title: Contact
-banner: assets/images/royalyork.jpg
 ---
 
 # Get in touch.

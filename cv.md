@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Curriculum Vitae
-banner: assets/images/viewfrombridge.jpg
 ---
 
 # Another item on the to-do list.

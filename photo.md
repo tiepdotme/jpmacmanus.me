@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Photography
-banner: assets/images/icelandicwaterfall.jpg
 ---
 
 # There's nothing here, yet.

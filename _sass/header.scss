@@ -1,27 +1,27 @@
 @import "utilities/variables";
 
 .header {
-  // border-bottom: 1px solid $reg-black;
-  margin: auto;
+  border-bottom: 1px solid #d6d9dc;
+  margin: 0 0 16px 0;
   padding: 0;
   width: 100%;
   vertical-align: middle;
   min-height:52px;
   display: block;
   overflow: hidden;
-  position: fixed;
-  background-color: $jet-black;
+  // position: fixed;
+  // background-color: $jet-black;
   z-index: 999;
 }
 
 .linkContainer {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
 .headerRight {
   float: right;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 .headerItem {
@@ -40,18 +40,18 @@
 }
 
 a.headerItem:link {
-  color: $snow-white;
+  color: $jet-black;
   text-decoration: none;
 
 }
 
 a.headerItem:visited {
-  color: $snow-white;
+  color: $jet-black;
   text-decoration: none;
 }
 
 a.headerItem:hover {
-  color: $moonstone;
+  color: $reg-black;
   //font-weight: bolder;
   // background-color: $header-link-colour;
 }

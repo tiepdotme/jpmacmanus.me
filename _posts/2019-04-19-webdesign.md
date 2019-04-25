@@ -3,7 +3,6 @@ title: Blog
 layout: post
 post-title: "Building this website"
 author: Joseph
-banner: /assets/images/code.png
 ---
 <!-- keep the title attribute as 'Blog' for display purposes, and title the post in post-title -->
 To kick off this blog I figured it would be fitting to write about the creation of this website, and talk about the process as well as some of the design choices I made.

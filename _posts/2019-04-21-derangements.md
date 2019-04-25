@@ -3,7 +3,6 @@ title: Blog
 layout: post
 post-title: "Counting Derangements"
 author: Joseph
-banner: /assets/images/bridge.jpg
 ---
 
 I present an inefficient yet novel way of recursively counting derangements of a set, and generalise this to counting permutations without short cycles.
