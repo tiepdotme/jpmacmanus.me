@@ -33,34 +33,34 @@
 }
 
 #current {
-  // color: $snow-white;
+  color: $active-header-link;
   //font-style: italic;
   //font-weight: bolder;
-  text-decoration: underline;
+  // text-decoration: underline;
 }
 
 a.headerItem:link {
-  color: $jet-black;
+  color: $header-link-colour;
   text-decoration: none;
 
 }
 
 a.headerItem:visited {
-  color: $jet-black;
+  color: $header-link-colour;
   text-decoration: none;
 }
 
 a.headerItem:hover {
-  color: $reg-black;
+  color: $active-header-link;
   //font-weight: bolder;
-  // background-color: $header-link-colour;
+  background-color: $highlight-colour;
 }
 
 a.headerItem:active {
-  color: $moonstone;
+  color: $active-header-link;
   text-decoration: none;
-}
 
+}
 
 
 #namelink {
@@ -69,5 +69,5 @@ a.headerItem:active {
   font-size: 33px;
   padding: 7px;
   font-weight: normal;
-  // color: $snow-white;
+  color: $active-header-link;
 }
