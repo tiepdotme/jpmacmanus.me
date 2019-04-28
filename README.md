@@ -2,14 +2,12 @@
 
 Find here the code to my personal website, hosted by GitHub Pages [here](https://jpmacmanus.github.io/).
 
-### TODO
+#### TODO
 
-- Work on mobile friendliness a little bit
+- sort out font scaling properly, especially headers.
 
 - Add links to sidebar (insta, twitter, linkedin etc)
 
 - Grab a custom domain from somewhere
-
-- rewrite font-size code to use relative units (em, rem etc)
 
 - Add a markdown cv
