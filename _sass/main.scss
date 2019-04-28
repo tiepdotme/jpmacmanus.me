@@ -112,37 +112,3 @@ p {
   width: 700px;
   padding-right: 16px;
 }
-
-@media only screen and (max-width:1300px) {
-    #content-cnt {
-      width:596px;
-    }
-    .mainContainer {
-      width: 864px;
-    }
-
-    #right-sidebar {
-      display: none;
-    }
-    #inner-content {
-      width: 100%;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    #bio-sidebar {
-        display: none;
-    }
-    #content-cnt {
-      float: none;
-      width: 80%;
-      max-width:none;
-      border-left-width: 0;
-    }
-    .mainContainer {
-      width: 100%;
-    }
-    #inner-content {
-      width: 100%;
-    }
-}
