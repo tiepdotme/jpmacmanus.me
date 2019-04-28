@@ -11,3 +11,5 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 - Grab a custom domain from somewhere
 
 - Add a markdown cv
+
+- scale down images used in blog post 1 to a reasonable size
