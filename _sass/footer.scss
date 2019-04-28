@@ -6,29 +6,44 @@
   left: 0;
   bottom: 0;
   clear: both;
-  border-top: 1px solid #555555;
+  border-top: 1px solid $border-colour;
   width: 100%;
   margin: auto;
-  text-align: center;
-  padding-top: 20px; /* footer height*/
-  height: 30px; /* footer height*/
-  background-color: $jet-black;
-  color: $highlight-colour;
+  // text-align: center;
+  padding-top: 32px; /* footer height*/
+  height: $footer-height; /* footer height*/
+  background-color: $highlight-colour;
+  color: $header-link-colour;
+}
+
+.footer-cnt {
+  width: $page-width-1;
+  margin: auto;
+}
+
+.footer-left {
+  display: inline-block;
+  float: left;
+}
+.footer-right {
+  display: inline-block;
+  float: right;
+  text-align: right;
 }
 
 a.footer-link:link {
-  color: $highlight-colour;
+  color: $header-link-colour;
   text-decoration: underline;
 }
 
 a.footer-link:visited {
-  color: $highlight-colour;
+  color: $header-link-colour;
 }
 
 a.footer-link:hover {
-  color: $moonstone;
+  color: $active-header-link;
 }
 
 a.footer-link:active {
-  color: $moonstone;
+  color: $active-header-link;
 }
