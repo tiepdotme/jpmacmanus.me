@@ -14,6 +14,8 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 
 - Add a markdown cv
 
+- style tagging system better
+
 ## Credits
 
-Big thanks to Long Qian whose plugin-free tag system I shamelessly stole from [here](http://longqian.me/2017/02/09/github-jekyll-tag/). 
+Big thanks to Long Qian whose plugin-free tag system I shamelessly stole from [here](http://longqian.me/2017/02/09/github-jekyll-tag/).
