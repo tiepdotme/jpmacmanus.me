@@ -3,6 +3,7 @@ title: Blog
 layout: post
 post-title: "Counting Derangements"
 author: Joseph
+tags: combinatorics derangements maths recursion formula
 ---
 
 I present an inefficient yet novel way of recursively counting derangements of a set, and generalise this to counting permutations without short cycles.
