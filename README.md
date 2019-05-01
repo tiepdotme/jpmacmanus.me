@@ -13,3 +13,7 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 - rewrite font-size code to use relative units (em, rem etc)
 
 - Add a markdown cv
+
+## Credits
+
+Big thanks to Long Qian whose plugin-free tag system I shamelessly stole from [here](http://longqian.me/2017/02/09/github-jekyll-tag/). 
