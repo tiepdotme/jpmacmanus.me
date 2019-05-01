@@ -12,12 +12,11 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 
 - Add a markdown cv
 
-<<<<<<< HEAD
 - style tagging system better
+
+- scale down images used in blog post 1 to a reasonable size
 
 ## Credits
 
 Big thanks to Long Qian whose plugin-free tag system I shamelessly stole from [here](http://longqian.me/2017/02/09/github-jekyll-tag/).
-=======
-- scale down images used in blog post 1 to a reasonable size
->>>>>>> 4c73c6f4974ad12a50ab997994217fc3a887abfe
+
