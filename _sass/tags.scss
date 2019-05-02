@@ -1,0 +1,31 @@
+@import "utilities/variables";
+
+// a.taglink:link {
+//   background-color: $highlight-colour;
+//   color: $moonstone;
+// }
+//
+// a.taglink:visited {
+//   color: $moonstone;
+// }
+//
+// a.taglink:hover {
+//   color: $moonstone;
+// }
+//
+// a.taglink:active {
+//   color: $moonstone;
+// }
+
+a.taglink {
+
+}
+
+code.tag {
+  font-size: 85%;
+  padding: .25em .5em;
+  background-color: $highlight-colour;
+  color: $moonstone;
+  line-height: 1.8;
+  border-radius: 3px;
+}
