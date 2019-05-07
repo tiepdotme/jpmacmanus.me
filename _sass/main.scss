@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   color: $reg-black;
-  background-color: $main-colour;
+  background-color: #fefefe;
   font-size: 1em;
   // padding-bottom: 120px; /* footer height*/
 }
@@ -38,10 +38,10 @@ h1 {
   border-bottom: 1px solid $border-colour;
 }
 h2 {
-  font-size: 2.25em;
+  font-size: 1.75em;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 h1.pagetitle {
@@ -76,12 +76,12 @@ p {
   //height: 100vh;
   min-height: 100vh;
   margin: auto;
-  background-color: $main-colour;
+  background-color: #fefefe;
   box-shadow: 0 0 10px grey;
 }
 
 .mainContainer {
-  width: 1264px;
+  width: $page-width-1;
   // minheight: auto;
   margin: 0 auto;
   padding-bottom: $footer-height + 48px;
@@ -100,15 +100,15 @@ p {
 #content-cnt {
   float: left;
   width: 100%;
-  max-width: 1000px;
-  padding: 0 0 0 16px;
+  max-width: $page-width-1 - 2*$std-padding;
+  padding: 0 $std-padding;
   height: auto;
   margin:auto;
-  border-left: 1px solid $border-colour;
+  // border-left: 1px solid $border-colour;
 }
 
 #inner-content { // only used in default-plus layout
   float: left;
-  width: 700px;
+  width: $page-width-1 - $right-sidebar-width - 4*$std-padding - 2px;
   padding-right: 16px;
 }
