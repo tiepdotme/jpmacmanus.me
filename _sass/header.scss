@@ -26,7 +26,7 @@
 
 .headerItem {
   //display: inline-block;
-  font-size: 24px;
+  font-size: 1.75em;
   padding: 12px;
   font-family: 'Raleway', sans-serif;
   float: left;
@@ -66,7 +66,7 @@ a.headerItem:active {
 #namelink {
   // border-right: 1px solid #555555;
   float: left;
-  font-size: 33px;
+  font-size: 2em;
   padding: 7px;
   font-weight: normal;
   color: $active-header-link;
