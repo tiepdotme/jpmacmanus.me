@@ -11,9 +11,9 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 # Current Projects
 
-Alongside curricular studies, I am currently working on a small number of projects, both theoretical and practical in nature.
+I sometimes do things, like the following:
 
-- **Munny** - A small budgetting program built from the ground up in Java, for my own personal use.
+- **Munny** - A small budgeting program built from the ground up in Java, for my own personal use. View the source code, follow progress and more importantly find a better description [here](https://github.com/jpmacmanus/munny).
 
 - **Smith** - A small Haskell module for calculating the Smith normal-form of an integer matrix.
 
