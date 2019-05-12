@@ -26,6 +26,8 @@ My personal decade of choice, in terms of design, would have to be the 80s. I do
 
 As a 'genre', if you can call it that, I think that it's aged remarkably well. A combination of the sleekness of the overall look, the professional black-on-white simplicity and the unique serif fonts which seem to have fallen out of usage. Couple this with 80s fashion and charm, which is finally making it's way back into the public eye as 'vintage', we have an incredible design rhetoric which holds up today almost arguably more than it did back when it was conceived. A key player in this style of graphic was Apple, who's typography permeates this website through the font *Apple Garamond*.
 
+<!--break-->
+
 A second, less obvious influence is \\(\rm\LaTeX\\). I want this website to be as much about mathematics as it is about myself. I needed a design pattern where maths and TeX would not look out of place, and a design where blog posts could look and feel like a standard mathematical article, should such a mood be necessary. I think I've managed to strike that vibe, and thanks to <a href="https://www.mathjax.org/">MathJax</a> I can display as much exciting maths as I please:
 
 $$

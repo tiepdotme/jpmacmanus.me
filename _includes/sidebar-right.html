@@ -1,21 +1,17 @@
 {% assign max_posts = 5 %}
 
 <div id="right-sidebar">
-  <h1>Latest Posts</h1>
+  <h1>Links</h1>
 
-  <ul id="sidebar-post-list">
-    {% for post in site.posts %}
-    {% if forloop.index > max_posts %}
-      {% break %}
-    {% endif %}
+  - <img src="/assets/images/icons/linkedin-16x16.png">
+  <a href="https://www.linkedin.com/in/jpmacmanus">LinkedIn Profile</a>
+  <br>
+  <br>
+  - <img src="/assets/images/icons/github-16x16.png">
+  <a href="https://github.com/jpmacmanus">GitHub Profile</a>
+  <br>
 
-      <li class="sidebar-preview">
-        <h3 class="sidebar-post-title"><a href="{{ post.url }}">{{ post.post-title }}</a></h3>
-        <h4 class="sidebar-post-date"> - {{ post.date | date_to_string }}</h4>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+      
 
   {% include archive.html %}
 </div>

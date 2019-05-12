@@ -1,6 +1,6 @@
 ---
 layout: default-plus
-title: Home
+title: About
 ---
 
 # About Me
