@@ -15,6 +15,10 @@
     #inner-content {
       width: 100%;
     }
+
+    .headerItem {
+      font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -47,5 +51,9 @@
     }
     .footer-right {
       margin-top: 6px;
+    }
+
+    .headerItem {
+      font-size: 1em;
     }
 }
