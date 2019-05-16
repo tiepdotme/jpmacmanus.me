@@ -7,13 +7,19 @@
     <!-- <div class="banner fadein" style="background-image: url('{{ page.banner }}')">
       <div  class="bannergradient"></div>
     </div> -->
+    {% include navigation.html %}
+    <div id="banner-cnt">
+      <div id="trans-cnt">
+        <h1 class="pagetitle">{{ page.title }}.</h1>
+      </div>
+    </div>
     <div class="mainContainer" >
-      {% include navigation.html %}
+
 
       <!-- {% include sidebar-left.html %} -->
 
+
       <div id="content-cnt" class="fadein">
-        <h1 class="pagetitle">{{ page.title }}.</h1>
         {{ content }}
       </div>
 

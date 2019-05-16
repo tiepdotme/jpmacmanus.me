@@ -2,7 +2,7 @@
 
 .header {
   border-bottom: 1px solid $border-colour;
-  margin: 0 0 16px 0;
+  margin: 0;
   padding: 0;
   width: 100%;
   vertical-align: middle;
@@ -12,10 +12,12 @@
   // position: fixed;
   // background-color: $jet-black;
   z-index: 999;
+  // position: fixed;
+  background-color: #fefefe;
 }
 
 .linkContainer {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
