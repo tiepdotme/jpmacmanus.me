@@ -4,15 +4,17 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 
 #### TODO
 
-- sort out font scaling properly, especially headers.
-
-- Add links to sidebar (insta, twitter, linkedin etc)
+- Redo contact page
 
 - Grab a custom domain from somewhere
 
 - Add a markdown cv
 
-- style tagging system better
+- Use jekyll-tags plugin?
+
+- Use pagination plugin?
+
+- Overhaul to a more minimal design
 
 - scale down images used in blog post 1 to a reasonable size
 
