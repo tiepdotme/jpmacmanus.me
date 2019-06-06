@@ -2,9 +2,9 @@
 layout: default-plus
 ---
 <h1>{{ page.post-title }}</h1>
-<h3>{{ page.date | date_to_string }} - {{ page.author }}</h3>
-
-<span>[
+<em>First published {{ page.date | date_to_string }}</em>
+<br><br>
+<em>Tags: </em><span>[
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     <a href="/tag/{{ tag_name }}"><code class="tag"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
