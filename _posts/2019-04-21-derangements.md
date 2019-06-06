@@ -1,7 +1,6 @@
 ---
-title: Blog
 layout: post
-post-title: "Counting Derangements"
+title: "Counting Derangements"
 author: Joseph
 tags: combinatorics derangements maths recursion formula
 ---

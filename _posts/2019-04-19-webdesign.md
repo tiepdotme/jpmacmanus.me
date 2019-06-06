@@ -1,7 +1,6 @@
 ---
-title: Blog
 layout: post
-post-title: "Building this website"
+title: "Building this website"
 author: Joseph
 tags: jekyll web-design design
 ---
