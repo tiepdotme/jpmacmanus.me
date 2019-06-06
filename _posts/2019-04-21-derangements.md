@@ -10,7 +10,7 @@ I present an inefficient yet novel way of recursively counting derangements of a
 
 The only prerequisites necessary are knowledge of the Symmetric Group and cycle-decompositions, as well as the definition of a partition.
 
-## The Problem
+## 1. The Problem
 
 Consider a classroom full of students who have just completed a short in-class test. To save time on marking, the teacher asks the students to hand over their test to somebody else in the room, so that each student can mark another student's test, and nobody gets the opportunity to be the marker of their own work.
 
@@ -32,7 +32,7 @@ Conversely, suppose its decomposition contains no \\(1\\)-cycles, then we have t
 
 <!--break-->
 
-## Counting via Partitions
+## 2. Counting via Partitions
 
 In this section we will explore the link between permutations and partitions, and exploit this link with the aim of counting this derangements. Consider a permutation \\(\sigma\\) and its decomposition, it's easy to see that this decomposition determines a partition of \\(N\\) by mapping each cycle to a part containing all elements within the cycle. This works since every element of \\(N\\) appears in precisely one of its cycles. For example
 

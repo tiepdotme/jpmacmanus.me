@@ -8,15 +8,19 @@ tags: jekyll web-design design
 <!-- keep the title attribute as 'Blog' for display purposes, and title the post in post-title -->
 To kick off this blog I figured it would be fitting to write about the creation of this website, and talk about the process as well as some of the design choices I made.
 
-## Motivation
+*Edit, 6/6/19: It seems as though my taste evolved faster than I expected, and much of the design discussed in this article is no longer actually used in this website. Following this, I would not advise attempting to draw comparisons to design ideas mentioned in this article to the website in its current form, as you may become tempted to call me a liar. A more up-to-date source of inspiration for this website would be the [Stanford Encyclopaedia of Philosophy](https://plato.stanford.edu/entries/relations/). I am, however, leaving this article otherwise untouched as I still think the 80s were on to something.*
+
+## 1. Motivation
 
 For as long as I can remember, I've always enjoyed the idea of having a website. I grew up alongside the internet, and the concept of owning your own plot of web-space was often romanticised by the media (see: iCarly). In my time I've hosted a few small, unsuccessful blogs and pages on whatever free hosts I could find - writing about whatever nonsense I had to say was always a good escape from the monotony of day-to-day life.
 
 Since entering university, I've noticed that personal websites are apparently a thing in the professional world - who would've guessed it. They're a way to market oneself to a more global community, and can say more than any email spam-bot throwing your CV about ever could. They're especially a 'thing' among academics, and also many high-flying computer science students. As somebody aspiring to fall into at least one of those categories, it seemed like a decent idea to hop onto the online property ladder.
 
-## Inspiration
+## 2. Inspiration
 
 My personal decade of choice, in terms of design, would have to be the 80s. I don't mean the crazy, neon, over-the-top word-art you see passed around as "retro 80s vibes", I'm talking about the clean, confident, and understated tech advertising of the era. Here are some examples of what I'm talking about:
+
+<!--break-->
 
 <p float="left">
   <img src="{{site.baseurl}}/assets/images/blog/webdesign/image1.jpg" width="32%" />
@@ -25,8 +29,6 @@ My personal decade of choice, in terms of design, would have to be the 80s. I do
 </p>
 
 As a 'genre', if you can call it that, I think that it's aged remarkably well. A combination of the sleekness of the overall look, the professional black-on-white simplicity and the unique serif fonts which seem to have fallen out of usage. Couple this with 80s fashion and charm, which is finally making it's way back into the public eye as 'vintage', we have an incredible design rhetoric which holds up today almost arguably more than it did back when it was conceived. A key player in this style of graphic was Apple, who's typography permeates this website through the font *Apple Garamond*.
-
-<!--break-->
 
 A second, less obvious influence is \\(\rm\LaTeX\\). I want this website to be as much about mathematics as it is about myself. I needed a design pattern where maths and TeX would not look out of place, and a design where blog posts could look and feel like a standard mathematical article, should such a mood be necessary. I think I've managed to strike that vibe, and thanks to <a href="https://www.mathjax.org/">MathJax</a> I can display as much exciting maths as I please:
 
@@ -41,7 +43,7 @@ Mood set, it was time to plan a layout. I started noting down what I liked and d
 
 A recurring theme in my findings was that so many websites - especially many personal websites - are massively overengineered to the point of insanity. It seems that every increase in browser speed and capability has been met by people adding more needless scripts to their sites, meaning even the simplest sites are surprisingly bloated. I wanted to keep my site as simple and responsive as I could, and to that effect avoided using scripts as much as I could. At the time of writing the only script I have written for this site controls a short tasteful fade-in of the content body.
 
-## The Process
+## 3. The Process
 
 Before deciding to build up from scratch, I toyed with several ideas, from all inclusive hosts like Wordpress.net, to prebuilt Jekyll templates like the aforementioned AcademicPages. After a lot of trial and error with these formats, I eventually settled on building the website from the ground up, myself.
 
@@ -49,7 +51,7 @@ In my research, I decided to host my website via GitHub Pages, and couple this w
 
 Once the back end was set up, it was then a matter of setting up the layout of the site. This wasn't my first rodeo with CSS - I've written several websites up from scratch for school/personal projects in the past - but even still footers never hit the bottom without a fight, and sidebars are repelled from the side as if magnets are somehow at play. This was by far the most tedious part of the whole process, and it didn't help that I kept changing my mind about what kind of layout I wanted. Eventually though, columns fell side-by-side, and the header stopped clipping through everything. After all that it is merely a matter of populating the site - part of which I am writing as we speak. After this, GitHub Pages makes deployment of the site completely trivial, which is handy. Just Push to the server and we are away.
 
-## Closing Remarks
+## 4. Closing Remarks
 
 Aside from reaffirming my hatred for writing CSS, I think creating this site has definitely taught me a lot about not just web development and what tools are out there, but also about myself and how I want to be perceived. It would definitely have been much easier to settle on a template or another more accessible option, but I feel like I wanted something I could be proud of, something I could be in full control of, and most importantly something tangible that I can pull out at a moments notice and brag 'I made that'.
 
