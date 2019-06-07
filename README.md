@@ -14,8 +14,6 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 
 - Use pagination plugin?
 
-- Overhaul to a more minimal design
-
 - scale down images used in blog post 1 to a reasonable size
 
 ## Credits
