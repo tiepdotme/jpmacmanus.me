@@ -8,13 +8,15 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 
 - Grab a custom domain from somewhere
 
-- Add a markdown cv
-
 - Use jekyll-tags plugin?
 
 - Use pagination plugin?
 
 - scale down images used in blog post 1 to a reasonable size
+
+- Make page descriptions unique to each page
+
+- Fix some scaling issues on mobile (header and footer, and reduce margin size maybe)
 
 ## Credits
 
