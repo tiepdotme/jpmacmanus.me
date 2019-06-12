@@ -26,7 +26,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 # Experience
 
 **Research Assistant**  
-*Unversity of Bristol - Summer 2019*  
+*University of Bristol - Summer 2019*  
 \- Working on a research project concerning quantum speed-ups of classical algorithms, within the School of Maths.
 
 **GCSE and A-Level Mathematics Tutor**  
