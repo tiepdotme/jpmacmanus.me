@@ -9,7 +9,37 @@ I'm a second year student at the University of Bristol, studying Mathematics and
 
 My key academic interests are algebra, combinatorics, as well as algorithm theory. I am also a keen programmer in Haskell, Java and occasionally also C.
 
-# Current Projects
+# Education
+
+**University of Bristol**  
+*Mathematics and Computer Science (BSc) - 2017 to 2020 (Ongoing)*  
+\- Topics studied include various programming paradigms, commutative and linear algebra, and combinatorics.
+
+**Ysgol Aberconwy 6th Form**  
+*3 A-Levels, at A\*A\*A\* - 2015 to 2017*  
+\- Above results achieved in Maths, Further Maths, and Physics.
+
+**Coleg Llandrillo (Via Conwy LiNC)**  
+*Level 3 BTEC in Programming, at Dist\* - 2015 to 2017*  
+\- Languages studied include C#, Visual Basic, as well as web development in HTML, CSS and Javascript.
+
+# Experience
+
+**Research Assistant**  
+*Unversity of Bristol - Summer 2019*  
+\- Working on a research project concerning quantum speed-ups of classical algorithms, within the School of Maths.
+
+**GCSE and A-Level Mathematics Tutor**  
+*Metatutor - 2018 to Present*  
+\- Tutored a good number of students through various levels of maths alongside my own studies.
+
+*. . . also several years of customer service experience which I shan't list here.*
+
+# Everything Else
+
+Find a full CV <a href="assets/files/cv.pdf">here</a>.
+
+<!-- # Current Projects
 
 I sometimes do things, like the following:
 
@@ -21,4 +51,4 @@ I sometimes do things, like the following:
 
 - **This website** - This site has been built from the ground up by hand, using <a href="https://jekyllrb.com/">Jekyll</a>, a static site generator, and is constantly evolving as my tastes change.
 
-In the coming Summer (2019), I will be working with a small number of other students on a research project concerning quantum speed-ups of classical algorithms.
+In the coming Summer (2019), I will be working with a small number of other students on a research project concerning quantum speed-ups of classical algorithms. -->
