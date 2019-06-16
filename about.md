@@ -1,6 +1,7 @@
 ---
 layout: default-plus
 title: About
+feed-in-sidebar: true
 ---
 
 # About Me
