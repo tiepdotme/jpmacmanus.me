@@ -7,4 +7,4 @@ title: Contact
 
 Try emailing me, at
 
-- <a href="mailto:jm17644@bris.ac.uk">jm17644@bris.ac.uk</a>
+- jm17644©bris.ac.uk
