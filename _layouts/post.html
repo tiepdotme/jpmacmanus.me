@@ -3,7 +3,7 @@ layout: default-plus
 feed-in-sidebar: true
 ---
 <h1>{{ page.title }}</h1>
-<em>First published {{ page.date | date_to_string }}</em>
+<em>First published {{ page.date | date: "%B %d, %Y" }}</em>
 <br><br>
 <em>Tags: </em><span>[
   {% for tag in page.tags %}
