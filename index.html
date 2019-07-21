@@ -1,13 +1,14 @@
 ---
 layout: default-plus
 title: Home
+feed-in-sidebar: false
 ---
 
 <h1>Latest Posts</h1>
 
 {% for post in site.posts limit:10 %}
    <div class="post-preview">
-   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+   <h2 class="post-link"><a href="{{ post.url }}">{{ post.title }}</a></h2>
    <em class="post-date">First published {{ post.date | date: "%B %d, %Y" }}</em>
    <br><!--<br>
    <span>[

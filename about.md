@@ -1,6 +1,7 @@
 ---
 layout: default-plus
 title: About
+feed-in-sidebar: true
 ---
 
 # About Me
@@ -37,7 +38,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 # Everything Else
 
-Find a full CV <a href="assets/files/cv.pdf">here</a>.
+Feel free to get in <a href="/contact.html">contact</a> with me for a full CV.
 
 <!-- # Current Projects
 

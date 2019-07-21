@@ -1,16 +1,21 @@
 ---
 layout: default-plus
 title: Archive
+feed-in-sidebar: false
 ---
 
-<h1>Latest Posts</h1>
+<h1>Archive</h1>
 
 <ul id="post-list">
   {% for post in site.posts %}
     <li>
-      <h3 class="post-link"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <h4 class="post-date"> - {{ post.date | date_to_string }}</h4>
+      <h2 class="post-link"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <em class="post-date">First published {{ post.date | date: "%B %d, %Y" }}</em><br>
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>
+
+<div id="optional-tag-display">
+  {% include archive.html %}
+</div>

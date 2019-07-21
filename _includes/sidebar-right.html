@@ -1,17 +1,10 @@
 {% assign max_posts = 5 %}
 
 <div id="right-sidebar">
-  <h1 class="underlined-header">Links</h1>
-
-  - <img src="/assets/images/icons/linkedin-16x16.png">
-  <a class="sidebar-link" href="https://www.linkedin.com/in/jpmacmanus">LinkedIn Profile</a>
-  <br>
-  <br>
-  - <img src="/assets/images/icons/github-16x16.png">
-  <a class="sidebar-link" href="https://github.com/jpmacmanus">GitHub Profile</a>
-  <br>
-
-
-
+  {% if page.feed-in-sidebar == false %}
+    {% include mini-bio.html %}
+  {% else %}
+    {% include mini-feed.html %}
+  {% endif %}
   {% include archive.html %}
 </div>

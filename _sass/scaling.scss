@@ -1,3 +1,7 @@
+#optional-tag-display {
+  display: none;
+}
+
 @media only screen and (max-width:1300px) {
     #content-cnt {
       width: $page-width-2 - (2 * $std-padding);
@@ -6,7 +10,10 @@
       width: $page-width-2;
     }
 
-
+    // unhides when sidebar isn't present
+    #optional-tag-display {
+      display: unset;
+    }
     #right-sidebar {
       display: none;
     }
@@ -25,7 +32,7 @@
     }
     #content-cnt {
       float: none;
-      width: 80%;
+      width: 86%;
       max-width:none;
       border-left-width: 0;
     }
@@ -54,4 +61,30 @@
     .headerItem {
       font-size: 1em;
     }
+    div.post-preview {
+      padding: 0;
+    }
+}
+
+// edit this width to change when the header wraps
+@media only screen and (max-width: 500px) {
+  .headerItem {
+    display: inline-block;
+    float: none;
+    padding-top: 6px;
+  }
+  .headerRight {
+    float: none;
+    text-align: center;
+  }
+  #namelink {
+    float: none;
+    display: inline-block;
+    padding: 12px 6px 6px 6px;
+    font-size: 0.75em;
+  }
+  #namelink-wrapper {
+    width: 100%;
+    text-align: center;
+  }
 }
