@@ -5,13 +5,9 @@ layout: default-plus
 <h1>Tag: {{ page.tag }}</h1>
 <ul id="post-list">
   {% for post in site.tags[page.tag] %}
-<<<<<<< HEAD
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-=======
     <li>
       <h2 class="post-link"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <em class="post-date">First published {{ post.date | date: "%B %d, %Y" }}</em><br>
->>>>>>> 989a719f97d19896486e0d94f83dbdab2ac57347
       {{ post.excerpt }}
     </li>
 {% endfor %}
