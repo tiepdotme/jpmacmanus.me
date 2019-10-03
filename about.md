@@ -6,7 +6,7 @@ feed-in-sidebar: true
 
 # About Me
 
-I'm a second year student at the University of Bristol, studying Mathematics and Computer Science. I plan to graduate after 3 years and move straight into a Masters studying the Mathematical Sciences, before continuing on to hopefully complete a PhD in Mathematics and break into academia.
+I'm a third year student at the University of Bristol, studying Mathematics and Computer Science. I plan to graduate after 3 years and move straight into a Masters studying the Mathematical Sciences, before continuing on to hopefully complete a PhD in Mathematics and break into academia.
 
 My key academic interests are algebra, combinatorics, as well as algorithm theory. I am also a keen programmer in Haskell, Java and occasionally also C.
 
@@ -14,7 +14,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 **University of Bristol**  
 *Mathematics and Computer Science (BSc) - 2017 to 2020 (Ongoing)*  
-\- Topics studied include various programming paradigms, commutative and linear algebra, and combinatorics.
+\- Topics studied include various programming paradigms, commutative and linear algebra, and combinatorics. This year I am working on a project concerning decidability within combinatorial group theory.
 
 **Ysgol Aberconwy 6th Form**  
 *3 A-Levels, at A\*A\*A\* - 2015 to 2017*  
@@ -26,7 +26,11 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 # Experience
 
-**Research Assistant**  
+**Teaching Assistant (Combinatorics, Data Structures and Algorithms, Algorithms I)**  
+*University of Bristol - October 2019 to Present*  
+\- Duties including running office hours and helping in problems classes.
+
+**Research Intern**  
 *University of Bristol - Summer 2019*  
 \- Working on a research project concerning quantum speed-ups of classical algorithms, within the School of Maths.
 
