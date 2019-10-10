@@ -28,7 +28,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 **Maths Café Leader (Combinatorics)**  
 *University of Bristol - October 2019 to Present*  
-\- Running a weekly drop-in session, which functions as an more informal problems class.
+\- Running a weekly drop-in session, which functions as a more informal problems class.
 
 **Teaching Assistant (Algorithms I-II)**  
 *University of Bristol - October 2019 to Present*  
