@@ -26,7 +26,11 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 # Experience
 
-**Teaching Assistant (Combinatorics, Data Structures and Algorithms, Algorithms I)**  
+**Maths Café Leader (Combinatorics)**  
+*University of Bristol - October 2019 to Present*  
+\- Running a weekly drop-in session, which functions as an more informal problems class.
+
+**Teaching Assistant (Algorithms I-II)**  
 *University of Bristol - October 2019 to Present*  
 \- Duties including running office hours and helping in problems classes.
 
