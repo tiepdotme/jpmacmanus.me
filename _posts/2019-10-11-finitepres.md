@@ -19,7 +19,7 @@ $$
 w^{-1} = (x_1 x_2 \ldots x_n)^{-1} = x_n^{-1} \ldots x_2^{-1} x_1^{-1}
 $$
 
-where each \\(x_i\\) is either an element of *X* or the inverse of one. Given two words *w* and *v*, we define their *juxtaposition* *wv* as concatenation in the obvious sense. A word *v* is a subword of another word *w* if it itself appears as a contiguous block within *w*. We may parameterise a word $$w(x,y,z \ldots)$$ or $$w(X)$$ to denote the set of symbols appearing in *w*.
+*where each \\(x_i\\) is either an element of X or the inverse of one. Given two words w and v, we define their juxtaposition wv as concatenation in the obvious sense. A word v is a subword of another word w if it itself appears as a contiguous block within w. We may parameterise a word $$w(x,y,z \ldots)$$ or $$w(X)$$ to denote the set of symbols appearing in w.*
 
 **Definition 1.2.** (Group presentations) *Let X be a set of symbols, then a presentation is a pair*
 $$
@@ -33,13 +33,13 @@ We say two words *w* and *v* in *X\** are equivalent if *v* can be obtained from
 
 2. Deletion of any element of *R* or its inverse, or a string of the form \\(xx^{-1}\\) or \\(x^{-1}x\\) where \\(x \in X\\), if it appears as a subword of *w*.
 
-This forms an equivalence relation on *X\** (we will not check this here). Define the following operation on the set of equivalence classes,
+This forms an equivalence relation on *X\** (we will not check this here), and it is clear that any relator lies within the class of the empty word. Define the following operation on the set of equivalence classes,
 
 $$
 [w] \cdot [v] = [wv],
 $$
 
-where *v*, *w* are elements of *X\**, and indeed this forms a group (which is another fact we will not check). Given some presentation *P*, denote its equivalence class group \\(\overline{P}\\).
+where *v*, *w* are elements of *X\**, and indeed this forms a group with the class of the empty word as the identity, and the obvious inverses (which is another fact we will not check). Given some presentation *P*, denote its equivalence class group \\(\overline{P}\\). One can think of relators as equations, where if the word *R* is a relator, then we stipulate $$R = 1$$ within our group. We may sometimes abuse notation and write *relations* $$X = Y$$ instead of relators in our group presentations, but it isn't hard to see that this doesn't change anything (every relation can be re-expressed as a relator). If a relation holds in a group given by a presentation, then this relation is said to be *derivable* from the given relations. 
 
 We have that every presentation defines a group, and in fact it is also true that every group is defined by some presentation. More precisely we have the following theorem.
 
@@ -49,7 +49,7 @@ So our notions of presentations and groups are indeed equivalent, though a given
 
 ## 2. Redundant Relators
 
-We shall consider a result presented by B. H. Neumann, in his 1937 paper *Some remarks on infinite groups* [2].
+We shall consider a result presented by B. H. Neumann, in his 1937 paper *Some remarks on infinite groups* [2]. This result about finitely presentable groups will be used in Section 3 to argue that our construction cannot be finitely presentable, by contradiction.
 
 **Theorem 2.1.** Let *G* be a group defined by the finite presentation
 $$
@@ -68,11 +68,9 @@ $$
 
 <!--break-->
 
-for some words $$X_i$$, $$Y_j$$, for all *i*, *j*. Now we can transform *G*'s finite presentation in *X* by adding each $$y_j$$ as a generator, and adding the relation $$y_j = Y_j(X)$$, for each *j*. We then add the relations $$x_i = X_i(Y)$$ to our presentation, for each *i* (these should not change the group as they are derivable from exiting relations). Using these new relations, we then substitute $$X_i(Y)$$ for each appearance of $$x_i$$ in the old relations. Following this, each $$x_i$$ is defined in terms of *Y*, and do not form part of any other relation in the presentation. It follows that we can delete generators *X* from our presentation as well as the corresponding relations, leaving us with a finite presentation of *G* in terms of generators *Y*. //
+for some words $$X_i$$, $$Y_j$$, for all *i*, *j*. Now we can transform *G*'s finite presentation in *X* by adding each $$y_j$$ as a generator, and adding the relation $$y_j = Y_j(X)$$, for each *j*. We then add the relations $$x_i = X_i(Y)$$ to our presentation, for each *i* (these should not change the group as they are derivable from existing relations). Using these new relations, we then substitute $$X_i(Y)$$ for each appearance of $$x_i$$ in the old relations. Following this, each $$x_i$$ is defined in terms of *Y*, and do not form part of any other relation in the presentation. It follows that we can delete generators *X* from our presentation as well as the corresponding relations, leaving us with a finite presentation of *G* in terms of generators *Y*. //
 
 **Remark.** *It is not too hard to see how the above result can be improved to a bound on the number of relations required to define G, and this is in fact what Neumann does in his paper.*
-
-Our construction will follow from the following corollary.
 
 **Corollary 2.2.** *Suppose G is finitely presentable, and let*
 $$
@@ -84,7 +82,7 @@ $$
 $$
 *also defines G. That is, all but finitely many of the relators are redundant.*
 
-*Proof.* Write $$S = \{S_i ; i \in I\}$$, and recall that since *S* is a defining set of relators, every other relator in *G* is derivable from *S*. In particular, every relator in *G* can be derived in a *finite* number of applications of the rules (1) and (2) mentioned in Section 1. Let $$\langle Y ; R \rangle$$ be some finite presentation of *G* in generators *Y*, which must exist by Theorem 2.1, then every relator in *R* is derivable from *S* in a finite number of steps. Since *R* is itself finite, we must have that every relator in *R* can be derived using only a finite number of relators in *S*. Then, since every relator of *G* can then be derived from *R*, it follows that every relator of *G* can be derived using just a finite subset of *S*, and thus all but finitely many relators in *S* are redundant.  //
+*Proof.* Write $$S = \{S_i \ ; \ i \in I\}$$, and recall that since *S* is a defining set of relators, every other relator in *G* is derivable from *S*. In particular, every relator in *G* can be derived in a *finite* number of applications of the rules (1) and (2) mentioned in Section 1. Let $$\langle Y ; R \rangle$$ be some finite presentation of *G* in generators *Y*, which must exist by Theorem 2.1, then every relator in *R* is derivable from *S* in a finite number of steps. Since *R* is itself finite, we must have that every relator in *R* can be derived using only a finite number of relators in *S*. Then, since every relator of *G* can then be derived from *R*, it follows that every relator of *G* can be derived using just a finite subset of *S*, and thus all but finitely many relators in *S* are redundant.  //
 
 ## 3. Main Result
 
@@ -139,7 +137,7 @@ $$ \alpha^k \beta \alpha^{-k} \beta = (1,j-1,j) (1, 2,3) = (1,j-1,j,2,3). $$
 
 Our result follows. //
 
-From here, we can prove our main result. A final notational remark, we notate the commutator $$[x,y] := xyx^{-1}y^{-1}$$.
+From here, we can prove our main result. A final notational remark, we notate the commutator $$[x,y] := xyx^{-1}y^{-1}$$. Recall that $$[x,y] = 1$$ if and only if $$x$$ and $$y$$ commute.
 
 **Theorem 3.3.** *There exists a finitely generated group which is not finitely presentable.*
 
@@ -149,7 +147,7 @@ $$
 \langle a, b ; [a^{2k+1} b a^{-(2k+1)}, b], k \in \mathbb N \rangle,
 $$
 
- and suppose *G* is finitely presentable. To ease notation, write $$c_k = [a^{2k+1} b a^{-(2k+1)}, b]$$, and consider the group $$A_{2l+3}$$, for $$l \geq 2$$. If we then consider the map $$a \mapsto \alpha$$, $$b \mapsto \beta$$, then it follows from Lemma 3.2 that for $$1 \leq k \leq l-1$$, $$c_k = 1$$ in $$A_{2l+3}$$, but $$c_l$$ does *not* equal 1. It follows that $$c_l$$ can't be derived from $$c_1, \ldots c_{l-1}$$. Since this is true for arbitrary $$l \geq 2$$, this contradicts Corollary 2.2, and so *G* cannot be finitely presentable. //
+ and suppose *G* is finitely presentable. To ease notation, write $$c_k = [a^{2k+1} b a^{-(2k+1)}, b]$$, and consider the group $$A_{2l+3}$$, for $$l \geq 2$$. If we then consider the map $$a \mapsto \alpha$$, $$b \mapsto \beta$$, then it follows from Lemma 3.2 that for $$1 \leq k \leq l-1$$, $$c_k = 1$$ in $$A_{2l+3}$$, but $$c_l$$ does *not* equal 1. It follows that the relation $$c_l=1$$ can't be derived from $$c_1, \ldots c_{l-1}=1$$ (if it could then $$c_l$$ must equal 1 in $$A_{2l+3}$$). Since this is true for arbitrary $$l \geq 2$$, this contradicts Corollary 2.2, and so *G* cannot be finitely presentable. //
 
 ## 4. Closing Remarks
 
