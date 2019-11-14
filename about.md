@@ -36,7 +36,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 **Research Intern**  
 *University of Bristol - Summer 2019*  
-\- Working on a research project concerning quantum speed-ups of classical algorithms, within the School of Maths.
+\- Working on a research project concerning quantum speed-ups of classical algorithms, within the School of Maths. My project report can be found in its current form [here](assets\files\Quantum_Report.pdf).
 
 **GCSE and A-Level Mathematics Tutor**  
 *Metatutor - 2018 to Present*  
