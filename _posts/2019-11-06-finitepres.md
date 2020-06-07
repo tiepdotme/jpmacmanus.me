@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Finitely Generated Group that is not Finitely Presentable"
+title: "A Finitely-Generated Group that is not Finitely Presentable"
 author: Joseph
 tags: group-theory algebra
 ---
@@ -39,7 +39,7 @@ $$
 [w] \cdot [v] = [wv],
 $$
 
-where *v*, *w* are elements of *X\**, and indeed this forms a group with the class of the empty word as the identity, and the obvious inverses (which is another fact we will not check). Given some presentation *P*, denote its equivalence class group \\(\overline{P}\\). One can think of relators as equations, where if the word *R* is a relator, then we stipulate $$R = 1$$ within our group. We may sometimes abuse notation and write *relations* $$X = Y$$ instead of relators in our group presentations, but it isn't hard to see that this doesn't change anything (every relation can be re-expressed as a relator). If a relation holds in a group given by a presentation, then this relation is said to be *derivable* from the given relations. 
+where *v*, *w* are elements of *X\**, and indeed this forms a group with the class of the empty word as the identity, and the obvious inverses (which is another fact we will not check). Given some presentation *P*, denote its equivalence class group \\(\overline{P}\\). One can think of relators as equations, where if the word *R* is a relator, then we stipulate $$R = 1$$ within our group. We may sometimes abuse notation and write *relations* $$X = Y$$ instead of relators in our group presentations, but it isn't hard to see that this doesn't change anything (every relation can be re-expressed as a relator). If a relation holds in a group given by a presentation, then this relation is said to be *derivable* from the given relations.
 
 We have that every presentation defines a group, and in fact it is also true that every group is defined by some presentation. More precisely we have the following theorem.
 
