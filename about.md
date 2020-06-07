@@ -12,6 +12,10 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 # Education
 
+**University of Oxford** *(incoming)*  
+*Mathematics and Foundations of Computer Science (MSc) - 2020 to 2021*  
+\- An emphasis on group theory, and theory of computation. 
+
 **University of Bristol**  
 *Mathematics and Computer Science (BSc) - 2017 to 2020 (Ongoing)*  
 \- Topics studied include various programming paradigms, commutative and linear algebra, and combinatorics. This year I am working on a project concerning decidability within combinatorial group theory.
