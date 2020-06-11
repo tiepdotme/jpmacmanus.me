@@ -17,7 +17,7 @@ body {
   height: auto;
   min-height: 100vh;
   box-sizing: border-box;
-  font-family: serif;
+  font-family: 'Roboto';
   color: $reg-black;
   background-color: $bg-colour;
   font-size: 1em;
@@ -76,6 +76,7 @@ a {
 p {
   // font-size: 16px;
   text-align: justify;
+  line-height: 1.5;
 }
 
 // any element with this class will be transparent initially and fade in.
