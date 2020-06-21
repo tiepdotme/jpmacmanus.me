@@ -106,17 +106,22 @@ h4 {
 }
 
 blockquote {
-  font-size: 1.25em;
+  font-style: italic;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.01em 1.5em;
+  // font-size: 1.25em;
   /* 20px / 16px */
-  line-height: 1.25;
+  // line-height: 1.25;
   /* 25px / 20px */
 }
 
 @media (min-width: 43.75em) {
   blockquote {
-    font-size: 1.5em;
+    // font-size: 1.5em;
     /* 24px / 16px = */
-    line-height: 1.45833333;
+    // line-height: 1.45833333;
     /* 35px / 24px */
   }
 }
