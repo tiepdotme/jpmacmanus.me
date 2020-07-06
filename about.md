@@ -14,7 +14,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 **University of Oxford** *(incoming)*  
 *Mathematics and Foundations of Computer Science (MSc) - 2020 to 2021*  
-\- An emphasis on group theory, and theory of computation. 
+\- An emphasis on group theory, and theory of computation.
 
 **University of Bristol**  
 *Mathematics and Computer Science (BSc) - 2017 to 2020 (Ongoing)*  
@@ -40,7 +40,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 **Research Intern**  
 *University of Bristol - Summer 2019*  
-\- Working on a research project concerning quantum speed-ups of classical algorithms, within the School of Maths. My project report can be found in its current form [here](assets\files\quantum.pdf).
+\- Working on a research project concerning quantum speed-ups of classical algorithms, pre-publication exhibiting our findings available [here](https://arxiv.org/abs/2004.06521).
 
 **GCSE and A-Level Mathematics Tutor**  
 *Metatutor - 2018 to Present*  
