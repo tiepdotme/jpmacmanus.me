@@ -6,19 +6,26 @@ feed-in-sidebar: true
 
 # About Me
 
-I'm a third year student at the University of Bristol, studying Mathematics and Computer Science. I plan to graduate after 3 years and move straight into a Masters studying the Mathematical Sciences, before continuing on to hopefully complete a PhD in Mathematics and break into academia.
+I am a recent graduate from the [University of Bristol](bris.ac.uk), and an incoming graduate student at the [University of Oxford](ox.ac.uk). My key academic interests lie within abstract algebra (particularly group theory), combinatorics, and theoretical computer science.
 
-My key academic interests are algebra, combinatorics, as well as algorithm theory. I am also a keen programmer in Haskell, Java and occasionally also C.
+I plan to begin a PhD in 2021, and I am currently searching for a supervisor.  
+
+# Pre-Prints
+
+**Quantum speedups of some general-purpose numerical optimisation algorithms**  
+*Submitted to Quantum Science and Technology (under revision)*, [arXiv:2004.06521](https://arxiv.org/abs/2004.06521)   
+Alexandru, Cezar-Mihail; Bridgett-Tomkinson, Ella; Linden, Noah; MacManus, Joseph; Montanaro, Ashley; Morris, Hannah.
+
 
 # Education
 
 **University of Oxford** *(incoming)*  
-*Mathematics and Foundations of Computer Science (MSc) - 2020 to 2021*  
+*MSc in Mathematics and Foundations of Computer Science (MFoCS) - 2020 to 2021*  
 \- An emphasis on group theory, and theory of computation.
 
 **University of Bristol**  
-*Mathematics and Computer Science (BSc) - 2017 to 2020 (Ongoing)*  
-\- Topics studied include various programming paradigms, commutative and linear algebra, and combinatorics. This year I am working on a project concerning decidability within combinatorial group theory.
+*BSc in Mathematics and Computer Science, first class honours - 2017 to 2020*  
+\- Bachelor's thesis: *Decision problems within combinatorial group theory*, supervised by Dr Philipp Schlicht.
 
 **Ysgol Aberconwy 6th Form**  
 *3 A-Levels, at A\*A\*A\* - 2015 to 2017*  
@@ -40,7 +47,7 @@ My key academic interests are algebra, combinatorics, as well as algorithm theor
 
 **Research Intern**  
 *University of Bristol - Summer 2019*  
-\- Working on a research project concerning quantum speed-ups of classical algorithms, pre-publication exhibiting our findings available [here](https://arxiv.org/abs/2004.06521).
+\- Working on a research project concerning quantum speed-ups of classical algorithms.
 
 **GCSE and A-Level Mathematics Tutor**  
 *Metatutor - 2018 to Present*  
