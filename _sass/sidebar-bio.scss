@@ -13,3 +13,21 @@
   font-size: 16px;
   text-align: left;
 }
+
+// change width to 100% / n where n is the number of links, to add more.
+.sidebar-link-cont {
+  display: inline-block;
+  text-align: center;
+  width: 49%;
+}
+.sidebar-link-cont-cont {
+  width: 80%;
+  margin: auto;
+}
+
+.sidebar-link-img {
+  opacity: 0.5;
+}
+.sidebar-link-img:hover {
+  opacity: 0.87;  
+}
