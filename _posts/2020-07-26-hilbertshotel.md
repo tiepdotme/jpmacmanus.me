@@ -9,6 +9,8 @@ We will consider a variation of Hilbert's hotel, within which guests may not be 
 
 This post will be hopefully more accessible than other topics on this site, and should require no more than some basic set theory to comprehend. The contents of this post aren't meant to be too thought provoking, as the point being made is quite moot. My aim is to demonstrate the (in my opinion) relatively nice combinatorial argument which falls out of this toy problem.
 
+*Edit, 26/7/2020: A small translation error has been corrected.*
+
 ## 1. Introduction
 
 *Hilbert's Paradox of the Grand Hotel* is a relatively famous mathematical thought experiment. It was introduced by David Hilbert in 1924 during a lecture entitled 'About the Infinite' [1, p. 730] (translated from the German 'Über das Unendliche'). Hilbert's goal in this demonstration was to show how when dealing with infinite sets, the idea that the "the part is smaller than the whole" no longer applies. In other words, the statements "the hotel is full" and "the hotel cannot accommodate any more guests" are not necessarily equivalent if we allow an infinite number of rooms. Hilbert gives the following explanation for how one can free up a room in an infinite hotel with no vacancies.
@@ -23,7 +25,7 @@ This post will be hopefully more accessible than other topics on this site, and 
 
 Indeed this can be adjusted to allow for any arbitrary number of new guests. For any natural number $$c$$, we can accommodate an extra $$c$$ by asking every current guest to move from their current room $$n$$ to the room $$n+c$$. Upon doing this, the rooms numbered 1 to $$c$$ shall become available. Hilbert then goes on to demonstrate that we can extend this to even allowing an *infinite* number of new guests in our already full hotel.
 
-> Yes, even for an infinite number of new guests or women, it is possible to make room. For example, have each of the old guests who originally held the room with the number $$n$$, now move into the one with the number $$2n$$, whereupon the infinite number of rooms with odd numbers become available for the new guests.
+> Yes, even for an infinite number of new guests, it is possible to make room. For example, have each of the old guests who originally held the room with the number $$n$$, now move into the one with the number $$2n$$, whereupon the infinite number of rooms with odd numbers become available for the new guests.
 
 <div style="text-align:center">
 <a href="{{site.baseurl}}/assets/images/blog/hilbert/hilbert-2n.png">
