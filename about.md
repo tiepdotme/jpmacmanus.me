@@ -6,7 +6,7 @@ feed-in-sidebar: true
 
 # About Me
 
-I am a recent graduate from the [University of Bristol](bris.ac.uk), and an incoming graduate student at the [University of Oxford](ox.ac.uk). My key academic interests lie within abstract algebra (particularly group theory), combinatorics, and theoretical computer science.
+I am a recent graduate from the [University of Bristol](https://www.bristol.ac.uk/), and an incoming graduate student at the [University of Oxford](https://www.ox.ac.uk/). My key academic interests lie within abstract algebra (particularly group theory), combinatorics, and theoretical computer science.
 
 I plan to begin a PhD in 2021, and I am currently searching for a supervisor.  
 
