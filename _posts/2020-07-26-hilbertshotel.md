@@ -143,6 +143,9 @@ It follows that this list of "EMPTY" rooms can only contain at most $$c$$ rooms,
 //
 
 
+*Edit, 27/7/2020: Better arguments for the above have since been demonstrated. I'd encourage the reader to try figure out a shorter proof for themselves, otherwise some of these arguments can be found in [this reddit thread](https://www.reddit.com/r/math/comments/hyahdh/hilberts_hotel_but_the_guests_are_mere_mortals/).*
+
+
 ## 3. Some Numbers
 
 As it turns out, if we add the restriction to Hilbert's thought experiment that our guests are all mere mortals, then a full hotel can only accommodate a finite number $$c$$ of new guests. With a goal of estimating this value $$c$$, I will finish this short article with some napkin mathematics. Combining some assumptions about the guests staying at our hotel with some hastily googled statistics, I will try to pull out some concrete numbers about our hotel's optimal performance. After all, we know that $$c$$ is finite, why not try calculate it?
