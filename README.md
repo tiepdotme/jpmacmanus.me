@@ -4,19 +4,9 @@ Find here the code to my personal website, hosted by GitHub Pages [here](https:/
 
 #### TODO
 
-- Redo contact page
+- Currently up to 10 posts display on the front page, there needs to be of notification at the bottom that "more posts are available in the archive", or ideally some pagination. 
 
-- Grab a custom domain from somewhere
-
-- Use jekyll-tags plugin?
-
-- Use pagination plugin?
-
-- scale down images used in blog post 1 to a reasonable size
-
-- Make page descriptions unique to each page
-
-- Fix some scaling issues on mobile (header and footer, and reduce margin size maybe)
+- perhaps let the little profile window exist on mobile devices, above the post feed. (but this isn't important). 
 
 ## Credits
 
