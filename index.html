@@ -21,6 +21,8 @@ feed-in-sidebar: false
    {{ post.content | split:'<!--break-->' | first }}
    {% if post.content contains '<!--break-->' %}
       <a class="read-more-link" href="{{ post.url }}">Continue reading...</a>
+   {% else %}
+      <div class="no-read-more-padding"></div>
    {% endif %}
    </div>
 {% endfor %}

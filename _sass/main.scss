@@ -152,6 +152,15 @@ a.read-more-link {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+div.no-read-more-padding {
+  width: 100%;
+  position: relative;
+  top: -6em;
+  height: 0;
+  padding-top: 7em;
+  margin: 0;
+}
+
 div.just-comments {
   font-family: sans-serif;
 }
