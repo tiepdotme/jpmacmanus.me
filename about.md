@@ -10,16 +10,14 @@ I am a recent graduate from the [University of Bristol](https://www.bristol.ac.u
 
 I plan to begin a PhD in 2021, and I am currently searching for a supervisor.  
 
-# Pre-Prints
+# Publications
 
-**Quantum speedups of some general-purpose numerical optimisation algorithms**  
-*Submitted to Quantum Science and Technology (under revision)*, [arXiv:2004.06521](https://arxiv.org/abs/2004.06521)   
-Alexandru, Cezar-Mihail; Bridgett-Tomkinson, Ella; Linden, Noah; MacManus, Joseph; Montanaro, Ashley; Morris, Hannah.
+[1]   Alexandru, C. -M., Bridgett-Tomkinson, E., Linden, N., **MacManus, J.**, Montanaro, A., & Morris, H. (2020). Quantum speedups of some general-purpose numerical optimisation algorithms. *Quantum Science and Technology, 5*(4), 045014. [https://doi.org/10.1088/2058-9565/abb003](https://doi.org/10.1088/2058-9565/abb003)
 
 
 # Education
 
-**University of Oxford** *(incoming)*  
+**University of Oxford**
 *MSc in Mathematics and Foundations of Computer Science (MFoCS) - 2020 to 2021*  
 \- An emphasis on group theory, and theory of computation.
 

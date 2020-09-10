@@ -92,3 +92,17 @@
     text-align: left;
   }
 }
+
+
+
+// contact email font-scaling
+
+#email-tag {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 500px) {
+  #email-tag {
+    font-size: 12px;
+  }
+}
