@@ -17,7 +17,7 @@ I plan to begin a PhD in 2021, and I am currently searching for a supervisor.
 
 # Education
 
-**University of Oxford**
+**University of Oxford**  
 *MSc in Mathematics and Foundations of Computer Science (MFoCS) - 2020 to 2021*  
 \- An emphasis on group theory, and theory of computation.
 
