@@ -244,7 +244,7 @@ $$
 
 *for all $$v,u \in X$$.*
 
- Alexandrov angles provide another alternative way to capture this idea of "well-behaved geometry". As we will shortly prove, a normed space is an inner product space if and only if all Alexandrov angles about the origin *strictly* exist.
+Alexandrov angles provide another alternative way to capture this idea of "well-behaved geometry". As we will shortly prove, a normed space is an inner product space if and only if all Alexandrov angles about the origin *strictly* exist.
 
 Before we can prove this result, we need to build up an understanding of geodesics within normed inner product spaces. First, we will show that normed vector spaces are geodesic, and that inner product spaces are *uniquely* geodesic.
 
@@ -369,7 +369,7 @@ If one is working with non-Euclidean spaces, such as hyperbolic or spherical spa
 
 In fact much of this post has been adapted from parts of [1]. Thus if any reader craves a more *official* exposition of all discussed above, I would direct them to Chapter I.1 of the aforementioned text. This definition leads to the field of *Alexandrov geometry*, and the more-advanced reader who wishes to delve deeper into this area of mathematics is pointed towards [4] which provides a complete introduction to this field and its topics. Anybody looking to delve into the history of this generalisation may wish to track down the two seminal papers of this idea [2] and [3]. Do be warned however that these papers are not in English, and a brief history of the field is also presented in [4].
 
-If anything discussed above is in need of clarification or correction, then I finally encourage the reader to point these issues out to me as soon as possible - either via the comments below or via email. 
+If anything discussed above is in need of clarification or correction, then I finally encourage the reader to point these issues out to me as soon as possible - either via the comments below or via email.
 
 ## 6. References
 
