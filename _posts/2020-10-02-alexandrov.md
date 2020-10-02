@@ -9,9 +9,8 @@ We will generalise the concept of angles in Euclidean space to any arbitrary met
 
 A familiarity with metric spaces shall be assumed for obvious reasons, as well as a passing familiarity with inner product spaces.
 
-## 1. Introduction and Preliminaries
+<!-- ## 1. Introduction and Preliminaries
 
-<!-- define geodesics as generalisation of straight line -->
 
 What is an angle? [Wikipedia](https://en.wikipedia.org/wiki/Angle) gives the following answer to this question.
 
@@ -68,7 +67,6 @@ $$
 
 exists, we say that this angle *exists in the strict sense*.
 
-<!--break-->
 
 Note that these angles will always exist, since $$\overline \angle _{\varphi(0)} (\varphi(t) ,\psi(t'))$$ must lie in $$[0,\pi]$$ and thus the supremum is necessarily finite (and decreasing as $$\varepsilon \to 0$$). However they certainly need not exist in the strict sense, and we shall see some important examples of this shortly.
 
@@ -292,8 +290,6 @@ It follows that all inner-product spaces are uniquely geodesic. //
 
 With this fact in mind, we can now completely characterise inner product spaces using Alexandrov angles.
 
-<!-- first note that our definition of angle generalises to geodesic rays [0,inf)-->
-
 **Theorem 4.3.** *Let $$X$$ be a normed space, then $$X$$ is an inner product space if and only if for all geodesics rays $$\varphi, \psi : [0,\infty) \to X$$ issuing from $$0$$, the Alexandrov angle $$\angle(\varphi, \psi)$$ strictly exists.*
 
 *Proof.* We first show the 'only if' direction, so suppose that $$X$$ is an inner product space and let $$\varphi, \psi$$ be two geodesics as above. By Proposition 4.2, we know that $$\varphi, \psi$$ are of the form
@@ -380,3 +376,5 @@ If anything discussed above is in need of clarification or correction, then I fi
 3. Alexandrov, A. D. (1957). Uber eine Verallgemeinerung der Riemannscen Geometrie. Schriftenreiche der Institut fur Mathematik, 1, 33-84.
 
 4. Alexander, S., Kapovitch, V., & Petrunin, A. (2019). An invitation to Alexandrov geometry: CAT (0) spaces. Springer International Publishing.
+
+-->
