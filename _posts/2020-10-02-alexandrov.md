@@ -9,7 +9,7 @@ We will generalise the concept of angles in Euclidean space to any arbitrary met
 
 A familiarity with metric spaces shall be assumed for obvious reasons, as well as a passing familiarity with inner product spaces.
 
-<!-- ## 1. Introduction and Preliminaries
+## 1. Introduction and Preliminaries
 
 
 What is an angle? [Wikipedia](https://en.wikipedia.org/wiki/Angle) gives the following answer to this question.
@@ -376,5 +376,3 @@ If anything discussed above is in need of clarification or correction, then I fi
 3. Alexandrov, A. D. (1957). Uber eine Verallgemeinerung der Riemannscen Geometrie. Schriftenreiche der Institut fur Mathematik, 1, 33-84.
 
 4. Alexander, S., Kapovitch, V., & Petrunin, A. (2019). An invitation to Alexandrov geometry: CAT (0) spaces. Springer International Publishing.
-
--->
